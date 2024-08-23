@@ -1,42 +1,33 @@
-//Variables
-//var let const
+//data-types
+//string numbers arrays objects bigInt booleans
+//undefined null NaN Infinity
 
-//functional scoped
-// console.log(userName2)
-var userName1 = "Hello All"
+console.log(typeof("Hello Abdul"))
+console.log(typeof(23.29))
+           //0 1 2 3 4 ....
+const arr = [1,2,3,"Hello",[1,2,3]]
+console.log(arr)
 
-// {
-//     var userName1 = "Vanakam"
-//     console.log(userName1)
-// }
-
-getName()
-
-function getName() {
-    var userName1 = "Abdul"
-    console.log(userName1)
-}
-
-// getName()
-
-// console.log(userName1)
+const car = {0:"MRF",engine:"V8",tyres:"CEAT"}
+console.log(car[0])
 
 
-let userName2;
-userName2 = "hey"
+let num1 = 2
+const num2 = num1
+num1 = 3
+console.log(num1,num2)
 
-// {
-//    let userName2 = "Deepak"
-//    console.log(userName2)
-// }
+// const arr2 = arr
+// arr[0] = "Vanakam"
+// console.log(arr,arr2)
 
-// console.log(userName2)
+// const car1 = car
+// car.engine = "V3"
+// console.log(car1,car)
 
-// const userName3 = "VasuDevan"
-// {
-//     const userName3 = "Vinoth"
-//     console.log(userName3)
-// }
-// console.log(userName3)
+// console.log(true || false)
 
-// const,let-block scoped
+// console.log(Boolean(-1))
+
+//operators
+//arithmetic #assignment #comparitive #logical #ternary #null-coelizing
