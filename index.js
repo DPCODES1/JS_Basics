@@ -24,7 +24,7 @@ switch (
     break;
 }
 
-init;cond;increment/decrementation
+// init;cond;increment/decrementation
 
 const arr = [1,2,3,4,6]
 for(let i = 0;i<arr.length;) {
@@ -56,3 +56,20 @@ do {
     console.log(random)
     random = randomGen()
 } while(random == 15)
+
+
+// outer:for(let i=1;i<=6;i++) {
+//     for(let j = 1;j<=6;j++) {
+//         console.log(i,j)
+//         if(i==3&&j==3) {
+//             break outer;
+//         }
+//     }
+// }
+
+for(let i=1;i<=6;i++) {
+    if(i==3) {
+        continue; //ship a particular iteration
+    }
+    console.log(i)
+}
